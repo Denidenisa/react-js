@@ -7,6 +7,7 @@ import { Demo3 } from './demos/3_Collections/Demo3'
 import { Exo3 } from './exos/1_Creation_composant/Exo3'
 import { Demo4 } from './demos/4_Events/Demo4'
 import { Demo5 } from './demos/5_State/Demo5'
+import { Exo4 } from './exos/1_Creation_composant/Exo4'
 
 
 
@@ -85,9 +86,12 @@ function App() {
     {/* <div>
       <Demo4 />  
     </div> */}
-     <div>
+     {/* <div>
       <Demo5 />  
-    </div>
+    </div> */}
+     <div>
+      <Exo4 />  
+    </div> 
     </>
   )
 }

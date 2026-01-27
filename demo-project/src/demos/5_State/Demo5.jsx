@@ -51,7 +51,9 @@ const crement = (value) =>{
       <button onClick={()=>setFirstname(prev=>prev.toLowerCase())}>🗣️🔉</button>
       <button onClick={()=>setFirstname(prev=>prev.toUpperCase())}>🗣️🔊</button>
       <button onClick={()=>setFirstname('Rogerina')}>🪄🔮👧🏻</button>
-      <button onClick={()=>setFirstname('Roger')}>👦🏻🔙</button>
+      <button onClick={()=>setFirstname('Roger')}>👦🏻🔙
+        
+      </button>
       </div>
 
       </div>
