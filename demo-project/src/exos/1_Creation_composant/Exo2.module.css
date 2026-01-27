@@ -1,0 +1,87 @@
+  /* body {
+  background-image:url('/src/assets/img/pawel-czerwinski-EkjPPzrLQ4I-unsplash.jpg') ;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh
+}   */
+
+.inside{
+  width: 75%;
+  background-color: #ddd1c2;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  text-align: center;
+ 
+  
+}
+.isAvailable{
+  width: 100%;
+  background-color: #f5e8d749;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+ 
+}
+
+
+.noAvailable{
+  width: 100%;
+  background-color: #f5e8d749;
+  
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3); /* Ombre rouge */
+  
+}
+
+
+.insiden{
+  width: 75%;
+  background-color: #c4baac;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  text-align: center;
+  
+}
+p{
+  color : rgb(41, 34, 33);
+   font-family:'Times New Roman', Times, serif;
+   font-size: 1rem;
+
+  
+}
+
+.image{
+  border-radius: 25px;
+}
+.isAvailable, .noAvailable {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.isAvailable:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.noAvailable:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(255, 0, 0, 0.5);
+}
+.image {
+  border-radius: 25px;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,40 @@
+.nopet {
+  background-color: rgb(232, 230, 230);
+  border-radius: 2rem;
+  margin: 1rem 0.5rem ;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  a {
+      color : rgb(136, 59, 155);
+  }
+}
+
+.pet {
+  background-color: rgb(208, 238, 217);
+  border-radius: 1rem;
+  margin: 1rem 0.5rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dog{
+  background: url('/src/assets/img/e1a18d17-d153-4d3e-8044-b18fdfb0bb66.jpg');
+  background-position: center; 
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+.cat{
+  background: url('/src/assets/img/SL-011023-55240-02.jpg');
+  background-position: center; 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  
+}
+
+.inside {
+  width: 100%;
+  background-color: rgba(245, 245, 245, 0.836);
+  border-radius: 0.75rem;
+  padding: 0.50rem;
+}
