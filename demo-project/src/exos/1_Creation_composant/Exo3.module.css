@@ -50,12 +50,12 @@ box-shadow: 0 6px 12px rgb(255, 238, 0);
   font-size: 14px;
   color:rgb(48, 46, 46);
 }
- body{
+ /* body{
   background-image: url(/src/assets/img/roll.jpg);
-} 
-h2{
-  color: azure;
-}
+}  */
+/* h2{
+  color: rgb(255, 253, 253);
+} */
 .rating-gap{
   display: flex;
   gap:1rem;

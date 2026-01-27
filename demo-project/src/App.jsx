@@ -6,6 +6,7 @@ import {Exo2} from './exos/1_Creation_composant/Exo2'
 import { Demo3 } from './demos/3_Collections/Demo3'
 import { Exo3 } from './exos/1_Creation_composant/Exo3'
 import { Demo4 } from './demos/4_Events/Demo4'
+import { Demo5 } from './demos/5_State/Demo5'
 
 
 
@@ -81,8 +82,11 @@ function App() {
       {/* <div>
       <Exo3 />  
     </div> */}
-    <div>
+    {/* <div>
       <Demo4 />  
+    </div> */}
+     <div>
+      <Demo5 />  
     </div>
     </>
   )
