@@ -13,7 +13,7 @@ export const Demo6Lib = () => {
     // - register ->
     // - handleSubmit -> une fonction qui fait le preventDefault et qui renvoie le state  qu'elle a fabriqué.
     // - formState -> 
-    const { register, handleSubmit, formState : {errors} } = useForm({
+    const { register, handleSubmit, formState : {errors},reset } = useForm({
                                                                          mode:'onchange', 
                                                                          defaultValues:{
                                                                           bill:0, 
@@ -24,6 +24,7 @@ export const Demo6Lib = () => {
 
       //data contient les données de notre formulaire auto-gérées par notre useForm grâce à register
       setTotalPerPerson((data.bill+(data.bill*data.tips/100))/data.nbPerson)
+      reset()
 
     }
 
