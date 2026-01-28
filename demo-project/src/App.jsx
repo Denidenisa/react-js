@@ -8,6 +8,10 @@ import { Exo3 } from './exos/1_Creation_composant/Exo3'
 import { Demo4 } from './demos/4_Events/Demo4'
 import { Demo5 } from './demos/5_State/Demo5'
 import { Exo4 } from './exos/1_Creation_composant/Exo4'
+import { Demo6 } from './demos/6_Formulaires/Demo6'
+import { Demo6Bis } from './demos/6_Formulaires/Demo6bis'
+import { Demo6Lib } from './demos/6_Formulaires/Demo6Lib'
+
 
 
 
@@ -89,9 +93,17 @@ function App() {
      {/* <div>
       <Demo5 />  
     </div> */}
-     <div>
+     {/* <div>
       <Exo4 />  
-    </div> 
+    </div>  */}
+     
+      <Demo6 />  
+
+      < Demo6Bis />  
+
+        <Demo6Lib/>
+        
+    
     </>
   )
 }
