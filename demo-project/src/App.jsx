@@ -9,10 +9,10 @@ import { Demo4 } from './demos/4_Events/Demo4'
 import { Demo5 } from './demos/5_State/Demo5'
 import { Exo4 } from './exos/1_Creation_composant/Exo4'
 import { Demo6 } from './demos/6_Formulaires/Demo6'
-import { Demo6Bis } from './demos/Demo6_Formulaires/Demo6bis'
-import { Demo6Lib } from './demos/6_Formulaires/Demo6Lib'
 import { Exo5 } from './exos/1_Creation_composant/Exo5'
-
+import { Demo6Lib } from './demos/6_Formulaires/Demo6Lib'
+import { Demo6Bis } from './demos/6_Formulaires/Demo6bis'
+import { Demo7 } from './demos/7_Interaction/Demo7'
 
 
 
@@ -103,7 +103,10 @@ function App() {
       {/* < Demo6Bis />   */}
 
         {/* <Demo6Lib/> */}
-        <Exo5/>
+        {/* <Exo5/> */}
+        <Demo7/>
+        
+       
         
     
     </>

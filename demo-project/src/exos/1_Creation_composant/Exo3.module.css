@@ -2,9 +2,9 @@
 .card {
   margin-top: 5rem;
   background:white;
-  border: 2px solid #ddd;
+  border: 2rem solid #ddd;
   border-radius: 8px;
-  padding: 16px;
+  padding: 8rem;
   width: 200px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
@@ -28,7 +28,7 @@ box-shadow: 0 6px 12px rgb(255, 238, 0);
 }
 .other:hover{
   transform: scale(1.02);
-  box-shadow: 0 6px 12px rgb(255, 1, 1);
+  box-shadow: 0 2rem 4rem rgb(255, 1, 1);
   }
   .moyen {
     border-color: silver;
@@ -46,7 +46,7 @@ box-shadow: 0 6px 12px rgb(255, 238, 0);
   margin-bottom: 12px;
 }
 .info p{
-  margin:8px 0;
+  margin:4rem 0;
   font-size: 14px;
   color:rgb(48, 46, 46);
 }

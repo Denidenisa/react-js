@@ -1,0 +1,11 @@
+.parent{
+  padding: 1rem;
+  border-radius:1rem;
+  border:2px solid teal;
+}
+.enfant {
+  padding: 1rem;
+  border-radius: 1rem;
+  border : 2px solid rgb(82, 42, 14);
+  margin-bottom: 1rem;
+}
