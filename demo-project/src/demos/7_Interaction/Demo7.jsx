@@ -4,6 +4,8 @@ import {useState}from 'react'
 import { Demo7Child } from "./Demo7Child"
 export const Demo7 = () => {
 
+  //* Composant "parent"
+
   const [children,setChildren]=useState([
     
       {
@@ -21,6 +23,8 @@ export const Demo7 = () => {
        adopted: false }
 
   ])
+
+  // *On récupère l'id qui est émit lors du déclenchement de l'event onAdoptReveal
   const changeAdoptionStatus=(id)=>{
     
     const newChildren=children.map(child=>{
@@ -39,6 +43,10 @@ export const Demo7 = () => {
     <div className={style.parent}>
     <h2> Je suis Kevin De La Street ! </h2>
     <p> Voici la liste de mes enfants : </p>
+
+    //* Pour envoyer des informations dans l'enfant, on passe par les props
+                // *child est l'enfant qu'on veut envoyer au composant pour qu'il l'affiche
+                // *chaque enfant, va pouvoir envoyer une information au parent, on fera également ça dans les props, en ajoutant une fonction comme props, en général, le nom qu'on donne commence par 'on'+ActionAFaire
     {
     children.map(child => <Demo7Child key={child.id}child={child} onAdoptReveal={changeAdoptionStatus}/>)
   }
@@ -47,3 +55,9 @@ export const Demo7 = () => {
   
 
 }
+
+
+
+
+
+

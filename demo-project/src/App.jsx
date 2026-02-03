@@ -13,6 +13,7 @@ import { Exo5 } from './exos/1_Creation_composant/Exo5'
 import { Demo6Lib } from './demos/6_Formulaires/Demo6Lib'
 import { Demo6Bis } from './demos/6_Formulaires/Demo6bis'
 import { Demo7 } from './demos/7_Interaction/Demo7'
+import { Exo6 } from './exos/Exo6'
 
 
 
@@ -104,7 +105,9 @@ function App() {
 
         {/* <Demo6Lib/> */}
         {/* <Exo5/> */}
-        <Demo7/>
+        {/* <Demo7/> */}
+        <Exo6/>
+
         
        
         
