@@ -13,6 +13,8 @@ export const Exo6Task = (props) => {
           <button  className={style.btn} onClick={() => onDoneTask(id)}>Finish</button>
         )}
        <button  className={style.btnDelte} onClick={() => onDeleteTask(id)}>Delete</button>
+
+       
       
      </div>
      </div>

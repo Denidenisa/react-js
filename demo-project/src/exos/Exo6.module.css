@@ -2,6 +2,7 @@
   padding: 12rem;
   border-radius:4rem;
   border:12px solid rgb(126, 165, 165);
+ 
 }
 .h2{
   font-size:2rem;
@@ -19,6 +20,7 @@
   justify-content:center;
   align-items:center;
   padding: 10px 15px 10px 12px;
+  
 
 }
 .titleList{
@@ -28,6 +30,7 @@
   justify-content:left;
   align-items:left;
   padding: 10px 15px 10px 12px;
+  margin-bottom: 2.5rem;
 
 }
 
@@ -62,7 +65,9 @@
  box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
  background: #e62222;
 }
- 
+ textarea{
+  resize: none;
+ }
 
 
 /* From Uiverse.io by MuhammadHasann */ 

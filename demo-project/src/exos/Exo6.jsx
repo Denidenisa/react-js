@@ -61,20 +61,22 @@ export const Exo6 = () => {
 
         <div className={style.nD}>
           <label>Description: </label>
-          <textarea
+          <textarea 
             value={description}
             onChange={(e) => setDescription(e.target.value)}
           />
         </div>
 
         <div className={style.nD}>
-          <label>Priority: </label>
-          <select
+          <label htmlFor="priority">Priority: </label>
+          <select         
             value={priority}
-            onChange={(e) => setPriority(e.target.value)}
+            onChange={(e) => setPriority(e.target.value)} //* ici  le onChange et le e -> pour pouvoir séléctionner.
           >
+
             <option value="Normal">Normal</option>
             <option value="Urgent">Urgent</option>
+            <option value=" Emergency"> Emergency</option>
           </select>
         </div>
 
@@ -95,6 +97,7 @@ export const Exo6 = () => {
           task={task}
           onDoneTask={changeTaskStatus}
           onDeleteTask={deleteTask}
+          
           
         />
       ))}
