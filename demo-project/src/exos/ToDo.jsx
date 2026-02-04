@@ -1,7 +1,7 @@
 import style from './ToDo.module.css';
 
 export const Todo = (props) => {
-    const { todo, onDelete } = props;
+    const { todo, onDelete, onToggleComplete } = props;
     const { id, name, description, priority, complete } = todo;
 
     return (
@@ -9,12 +9,12 @@ export const Todo = (props) => {
         <div className={style.todo}>
             <div className={style.top}>
 
-                <input readOnly type="checkbox" checked={complete} />
+                <input readOnly type="checkbox" checked={complete} onClick={() => onToggleComplete(id)}/>
                 <div className={style.title}>
                     {name}
                     
                     {
-                        priority === 'high' &&
+                        (priority === 'high' && !complete) &&
                         <div className={style.pulse}>Urgent</div>
                     }
                 </div>
