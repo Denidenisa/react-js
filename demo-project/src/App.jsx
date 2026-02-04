@@ -15,6 +15,7 @@ import { Demo6Bis } from './demos/6_Formulaires/Demo6bis'
 import { Demo7 } from './demos/7_Interaction/Demo7'
 import { Exo6 } from './exos/Exo6'
 import { LaVie } from './demos/8_Cycle_De_Vie/LaVie'
+import { Exo7ProjectProgress } from './exos/Exo7ProjectProgress'
 
 
 
@@ -108,7 +109,8 @@ function App() {
         {/* <Exo5/> */}
         {/* <Demo7/> */}
         {/* <Exo6/> */}
-        <LaVie/>
+        {/* <LaVie/> */}
+        <Exo7ProjectProgress/>
 
         
        
