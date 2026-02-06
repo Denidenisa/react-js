@@ -16,6 +16,7 @@ import { Demo7 } from './demos/7_Interaction/Demo7'
 import { Exo6 } from './exos/Exo6'
 import { LaVie } from './demos/8_Cycle_De_Vie/LaVie'
 import { Exo7ProjectProgress } from './exos/Exo7ProjectProgress'
+import { Pokedex } from './demos/9_API/Pokedex'
 
 
 
@@ -110,7 +111,8 @@ function App() {
         {/* <Demo7/> */}
         {/* <Exo6/> */}
         {/* <LaVie/> */}
-        <Exo7ProjectProgress/>
+        {/* <Exo7ProjectProgress/> */}
+        <Pokedex/>
 
         
        
