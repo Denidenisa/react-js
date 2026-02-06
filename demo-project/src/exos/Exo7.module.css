@@ -1,0 +1,99 @@
+/* From Uiverse.io by suda-code */ 
+.charger {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5rem;
+  background-color: #2ba8fb;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  
+}
+
+.charger:hover {
+  background-color: #6fc5ff;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+.charger:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+  
+}
+.titleH3{
+display: block;
+font-size: 1.17em;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+
+}
+
+.btnB{
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5rem;
+  background-color: #2ba8fb;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+
+}
+.btnB:hover {
+  background-color: #6fc5ff;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+.btnB:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+
+.bF{
+display: block;
+font-size: 1em;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+color: #363738;
+
+
+}
+
+.titre{
+  position: relative;
+  padding: 1.1rem;
+  margin: 0;
+  margin-bottom: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: flex;
+  justify-content: center;
+}
+.tout{
+  padding: 2rem;
+  border: #2ba8fb 15px solid;
+  border-radius: 3rem;
+}
+
+
+
+
